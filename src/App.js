@@ -14,6 +14,8 @@ import KFormTest from './components/KFormTest'
 import Dialog from './components/Dialog'
 import TreeNodes from './components/Tress'
 import ReduxTest from './components/ReduxTest'
+import MyRedux from './components/MyRedux'
+import RouterTest from './components/RouterTest'
 export default class App extends Component {
   receiveSonMesage=(val)=>{
     console.log(val)
@@ -22,7 +24,7 @@ export default class App extends Component {
 
     return (
       <div>
-        <ReduxTest></ReduxTest>
+        <RouterTest></RouterTest>
         {/* <HandleEvent change={(val)=>this.receiveSonMesage(val)}></HandleEvent> */}
         {/* {this.props.title} */}
       </div>
